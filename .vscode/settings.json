@@ -1,0 +1,16 @@
+{
+    "files.exclude": {
+        "**/*.js": { "when": "$(basename).ts" },
+        "**/*.map": { "when": "$(basename).map" }
+    },
+    "angulardoc.repoId": "7c04b6f5-3f83-401e-b0b1-8b61cce0bbd5",
+    "angulardoc.directoryFilter": [
+        "!typings",
+        "!node_modules",
+        "!.vscode"
+    ],
+    "angulardoc.fileFilter": [
+        "**/!(*.*spec).ts"
+    ],
+    "angulardoc.lastSync": 0
+}
